@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Lucky Robinson</title>
+</head>
+<body>
+  <h1>Lucky Robinson</h1>
+  <h2>Ingénieur Systèmes Embarqués</h2>
+
+  <h3>À propos de moi</h3>
+  <p>Ingénieur passionné par la robotique et l'électronique, j'aime programmer les systèmes embarqués et les tester.
+  J'ai une expérience significative en développement firmware et en test, validation et vérification. Mes langages de prédilection : C, C++ et Python. 
+  Je souhaite contribuer à des projets innovants dans le monde de l'industrie et je souhaiterai y apporter une nouvelle vision en restant en veille technologique. </p>
+
+  <h3>Compétences</h3>
+  <ul>
+    <li>Langages : C, C++, Python.  </li>
+    <li>Microcontrôleurs et architectures : ARM Cortex A9, R5, Bootloader, gestion mémoire Flash/RAM</li>
+    <li>Systèmes : FreeRTOS, Bare-Metal, Linux Embarqué (Fondamental)</li>
+    <li>Protocoles de communication : UART, I2C, SPI, Modbus, Ethernet TCP/IP, Spacewire.</li>
+    <li>Electronique: capteurs, KICAD (CAO), Cablage, Simulation, Numérique (FPGA/VHDL)</li>
+    <li>Outils : oscilloscope, multimètre, GBF, Alimentation.</li>
+    <li>Méthodologies : UML, SysML, Cycle en V, Agile (Scrum)</li>
+    <li>Tests : unitaires, fonctionnels, non-régression, systèmes</li>
+    <li>Validation et Vérification : Robot Framework(Automatisation), documentation de rapport de test, suivi tickets Jira</li>
+    <li>DevOps : Git/Gitlab CI, Jenkins.</li>
+    <li>Analyse et diagnostic : Picoscope, sonde JTAG, Logs UART(Putty), rapports (XML, CSV, JSON), débogage (GDB, SWD)
+</li>
+  </ul>
+
+  <h3>Projets</h3>
+  <ul>
+    <li>Projet 1 : Supervision système d'acquisition de données de capteur</li>
+    <li>Projet 2 : Développement d'une carte STM32 avec un capteur de température </li>
+  </ul>
+
+  <h3>Contact</h3>
+  <p>Email : lucky.h.robinson@gmail.com</p>
+</body>
+</html>

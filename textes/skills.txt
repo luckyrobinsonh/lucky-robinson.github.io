@@ -1,0 +1,11 @@
+Langages : C, C++, Python. 
+Microcontrôleurs et architectures : ARM Cortex A9, R5, Bootloader, gestion mémoire Flash/RAM
+Systèmes : FreeRTOS, Bare-Metal, Linux Embarqué (Fondamental)
+Protocoles de communication : UART, I2C, SPI, Modbus, Ethernet TCP/IP, Spacewire.
+Electronique: capteurs, KICAD (CAO), Cablage, Simulation, Numérique (FPGA/VHDL)
+Outils : oscilloscope, multimètre, GBF, Alimentation.
+Méthodologies : UML, SysML, Cycle en V, Agile (Scrum)
+Tests : unitaires, fonctionnels, non-régression, systèmes
+Validation et Vérification : Robot Framework(Automatisation), documentation de rapport de test, suivi tickets Jira
+DevOps : Git/Gitlab CI, Jenkins.
+Analyse et diagnostic : Picoscope, sonde JTAG, Logs UART(Putty), rapports (XML, CSV, JSON), débogage (GDB, SWD)

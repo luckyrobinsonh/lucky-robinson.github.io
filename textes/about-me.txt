@@ -1,0 +1,3 @@
+Ingénieur passionné par la robotique et l'électronique, j'aime programmer les systèmes embarqués et les tester.
+J'ai une expérience significative en développement firmware et en test, validation et vérification. Mes langages de prédilection : C, C++ et Python. 
+Je souhaite contribuer à des projets innovants dans le monde de l'industrie et je souhaiterai y apporter une nouvelle vision en restant en veille technologique. 
