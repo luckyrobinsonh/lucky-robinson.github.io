@@ -1,1 +1,4 @@
-Projet 1 : Supervision système d'acquisition de données de capteur
+Projet 1 : PeriodicWorldBuilder - Génération et recherche de mots à partir du tableau périodique
+Projet 2 : Développement d'outils pour l'analyse de séries numériques
+Projet 3 : Supervision systèmes d'acquisition de données de capteurs
+Projet 4 : Gestion de bibliothèque : livre de développement personnel
