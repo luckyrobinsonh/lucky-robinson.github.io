@@ -1,65 +1,203 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio - Lucky Robinson</title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio - Lucky Robinson - Ingénieur Logiciel Embarqué </title>
+
+    <!-- Style simple et professionnel -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1f2933;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 6px;
+        }
+
+        h1, h2, h3 {
+            color: #1f2933;
+        }
+
+        h2 {
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+<head>
 <body>
-  <h1>Lucky Robinson</h1>
-  <h2>Ingénieur Systèmes Embarqués</h2>
+   <!-- EN-TÊTE -->
+    <header>
+      <h1>Lucky Robinson</h1>
+      <h2>Ingénieur Systèmes Embarqués</h2>
+    </header>
 
-  <h3>À propos de moi</h3>
-  <p>Ingénieur passionné par la robotique et l'électronique, j'aime programmer les systèmes embarqués et les tester.
-  J'ai une expérience significative en développement firmware et en test, validation et vérification. Mes langages de prédilection : C, C++ et Python. 
-  Je souhaite contribuer à des projets innovants dans le monde de l'industrie et je souhaiterai y apporter une nouvelle vision en restant en veille technologique. </p>
+    <!-- À PROPOS -->
+    <section>
+      <h3>À propos de moi</h3>
+      <p>
+          Ingénieur passionné par la robotique et l'électronique, j'aime programmer les systèmes embarqués et les tester.
+          J'ai une expérience significative en développement firmware et en test, validation et vérification. Mes langages de prédilection : C, C++ et Python. 
+          Je souhaite contribuer à des projets innovants dans le monde de l'industrie et je souhaiterai y apporter une nouvelle vision en restant en veille technologique. 
+      </p>
+    <section>
 
-  <h3>Compétences</h3>
-  <ul>
-    <li>Langages : C, C++, Python.  </li>
-    <li>Microcontrôleurs et architectures : ARM Cortex A9, R5, Bootloader, gestion mémoire Flash/RAM</li>
-    <li>Systèmes : FreeRTOS, Bare-Metal, Linux Embarqué (Fondamental)</li>
-    <li>Protocoles de communication : UART, I2C, SPI, Modbus, Ethernet TCP/IP, Spacewire.</li>
-    <li>Electronique: capteurs, KICAD (CAO), Cablage, Simulation, Numérique (FPGA/VHDL)</li>
-    <li>Outils : oscilloscope, multimètre, GBF, Alimentation.</li>
-    <li>Méthodologies : UML, SysML, Cycle en V, Agile (Scrum)</li>
-    <li>Tests : unitaires, fonctionnels, non-régression, systèmes</li>
-    <li>Validation et Vérification : Robot Framework(Automatisation), documentation de rapport de test, suivi tickets Jira</li>
-    <li>DevOps : Git/Gitlab CI, Jenkins.</li>
-    <li>Analyse et diagnostic : Picoscope, sonde JTAG, Logs UART(Putty), rapports (XML, CSV, JSON), débogage (GDB, SWD)
-</li>
-  </ul>
+      <!-- COMPÉTENCES -->
+    <section>
+        <h2>Compétences techniques</h2>
 
-  <h3>Projets</h3>
-  <ul>
-  <li> Projet 1 : PeriodicWorldBuilder - Génération et recherche de mots à partir du tableau périodique </li>
- <li> .Algorithmie : recherche récursive (DFS), backtracking, tri. </li>
- <li> .Traitements de chaines de caractères et structure de données (tableau, struct ...) </li>
- <li> .Performance : gestion de tableau statiques  </li>
- <li> .Validation : tests unitaires, gestion d'erreurs </li> 
+        <h3>Langages</h3>
+        <ul>
+            <li>C (embarqué)</li>
+            <li>Python (tests, automatisation)</li>
+            <li>C++ (bases)</li>
+            <li>Bash</li>
+        </ul>
+        <h3>Microcontrôleurs et architectures </h3>
+        <ul>
+            <li>ARM Cortex A9, R5 </li>
+            <li>Bootloader </li>
+            <li>gestion mémoire Flash/RAM </li>
+        </ul>
+        <h3>Systèmes Embarqués </h3>
+        <ul>
+            <li>FreeRTOS/Bare-Metal </li>
+            <li>Bootloader </li>
+            <li>Linux Embarqué (Fondamental) </li>
+        </ul>
+  
+        <h3>Protocoles de communication & Bus</h3>
+        <ul>
+            <li>I2C, SPI, UART, CAN </li>
+            <li>Modbus, Ethernet TCP/IP </li>
+            <li> Spacewire</li> 
+        </ul>
 
- <li> Projet 2 : Développement d'outils pour l'analyse de séries numériques </li>
- <li> .Etude du besoin </li>
- <li> .Chargement et traitement de données : extraction CSV. </li>
- <li> .Algorithme de moyenne glissante (lissage), conversion des timestamps en heures. </li>
- <li> .Visualisation graphique : Matplotlib </li> 
- <li>.Automatisation : détection automatique de fichiers CSV dans le répertoire. </li>
+        <h3>Electronique</h3>
+        <ul>
+            <li>Capteurs/Microcontrôleurs</li>
+            <li>CAO : Cablâge et Schématique (KICAD) </li>
+            <li>Simulation, Numérique (FPGA/VHDL)</li>
+        </ul>
 
- <li> Projet 3 : Supervision systèmes d'acquisition de données de capteurs </li>
- <li> .Etude du besoin </li>
- <li> .Architecture : données entrées/sorties </li>
- <li> .Module Python pour simulation des signaux électriques (tensions, courant, température) </li>
- <li> .Implémentation logique de commande du disjoncteur et détection anomalies </li>
- <li> .Création et exécution de scénarios de test automatisés et détection anomalies </li>
- <li> .Visualisation des résultats : Matplotlib.  </li>
+        <h3>Outils & Méthodologies </h3>
+        <ul>
+            <li>Git</li>
+            <li>Oscilloscope, Multimètre, GBF, Alimentation</li>
+            <li>UML, SysML, Cycle en V</li>
+            <li>Test automatisés </li>
+        </ul>
 
- <li> Projet 4 : Gestion de bibliothèque : livre de développement personnel </li>
- <li> .Etude du besoin </li>
- <li> .Architecture : Entrées/Sorties et UML </li>
- <li> .Développement </li>
-    
-  </ul>
+        <h3>Tests, Validation et Vérification </h3>
+        <ul>
+            <li>Test automatisés : Robot Framework </li>
+            <li>Tests : unitaires, fonctionnels, non-régression, systèmes </li>
+            <li>Documentation de rapport de test</li>
+            <li> Suivi tickets et Intégration continue : GitlabCI </li>
+        </ul>
 
-  <h3>Contact</h3>
-  <p>Email : lucky.h.robinson@gmail.com</p>
+      <h3> Analyse et diagnostic </h3>
+        <ul>
+            <li>Sonde JTAG </li>
+            <li>Logs UART(Putty) </li>
+            <li>Rapports (XML, CSV, JSON)</li>
+            <li> Débogage (GDB, SWD) </li>
+        </ul>
+      
+    </section>
+
+      
+    <!-- PROJETS -->
+    <section>
+        <h2>Projets</h2>
+
+        <div class="project">
+
+           <h3>Projet 1 : PeriodicWorldBuilder - Génération et recherche de mots à partir du tableau périodique </h3>
+            <ul>            
+                <li>.Algorithmie : recherche récursive (DFS), backtracking, tri </li>
+                <li>.Traitements de chaines de caractères et structure de données (tableau, struct ...)</li>
+                <li>.Performance : gestion de tableau statiques</li>
+                <li>.Validation : tests unitaires, gestion d'erreurs</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>Projet 2 : Développement d'outils pour l'analyse de séries numériques</h3>
+            <ul>
+                 <li> .Etude du besoin </li>
+                 <li> .Chargement et traitement de données : extraction CSV. </li>
+                 <li> .Algorithme de moyenne glissante (lissage), conversion des timestamps en heures. </li>
+                 <li> .Visualisation graphique : Matplotlib </li> 
+                 <li>.Automatisation : détection automatique de fichiers CSV dans le répertoire. </li>
+            </ul>
+        </div>
+
+      
+        <div class="project">
+            <h3>Projet 3 : Supervision systèmes d'acquisition de données de capteurs</h3>
+            <ul>
+                 <li> .Etude du besoin </li>
+                 <li> .Architecture : données entrées/sorties </li>
+                 <li> .Module Python pour simulation des signaux électriques (tensions, courant, température) </li>
+                 <li> .Implémentation logique de commande du disjoncteur et détection anomalies </li>
+                 <li> .Création et exécution de scénarios de test automatisés et détection anomalies </li>
+                 <li> .Visualisation des résultats : Matplotlib.  </li>
+            </ul>
+        </div>
+
+      <div class="project">
+            <h3>Projet 4 : Gestion de bibliothèque : livre de développement personnel</h3>
+            <ul>
+                 <li> .Etude du besoin </li>
+                 <li> .Architecture : Entrées/Sorties et UML </li>
+                 <li> .Développement </li>
+            </ul>
+        </div>   
+    </section>
+   
+<!-- CONTACT -->
+    <section>
+        <h2>Contact</h2>
+        <p>Email : lucky.h.robinson@gmail.com </p>
+        <p>LinkedIn : https://www.linkedin.com/in/robinson-lucky/</p>
+        <p>GitHub : github.com/luckyrobinson</p>
+    </section>
+
+    <!-- PIED DE PAGE -->
+    <footer>
+        © 2026 – Lucky Robinson
+    </footer>
+
 </body>
 </html>
