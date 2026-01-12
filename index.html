@@ -14,7 +14,6 @@
             color: #333;
             line-height: 1.6;
         }
-
         header {
             background-color: #1f2933;
             color: white;
@@ -53,13 +52,43 @@
             color: #666;
             font-size: 14px;
         }
+        header.cover {
+            background-image: url("images/cover.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header.cover .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 30px 50px;
+            text-align: center;
+            border-radius: 6px;
+        }
+
+        header.cover h1 {
+            color: #ffffff;
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header.cover p {
+            color: #d1d5db;
+            font-size: 18px;
+            margin-top: 10px;
+        }        
     </style>
 <head>
 <body>
-   <!-- EN-TÊTE -->
-    <header>
-      <h1>Lucky Robinson</h1>
-      <h2>Ingénieur Systèmes Embarqués</h2>
+   <header class="cover">
+    <div class="overlay">
+        <h1>Lucky Robinson</h1>
+        <p>Ingénieur Logiciel Embarqué / Test & Validation</p>
+    </div>
     </header>
 
     <!-- À PROPOS -->
