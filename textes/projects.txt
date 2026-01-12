@@ -1,4 +1,25 @@
 Projet 1 : PeriodicWorldBuilder - Génération et recherche de mots à partir du tableau périodique
+.Algorithmie : recherche récursive (DFS), backtracking, tri.
+.Traitements de chaines de caractères et structure de données (tableau, struct ...)
+.Performance : gestion de tableau statiques 
+.Validation : tests unitaires, gestion d'erreurs
+
 Projet 2 : Développement d'outils pour l'analyse de séries numériques
+.Etude du besoin
+.Chargement et traitement de données : extraction CSV.
+.Algorithme de moyenne glissante (lissage), conversion des timestamps en heures.
+.Visualisation graphique : Matplotlib
+.Automatisation : détection automatique de fichiers CSV dans le répertoire.
+
 Projet 3 : Supervision systèmes d'acquisition de données de capteurs
+.Etude du besoin
+.Architecture : données entrées/sorties
+.Module Python pour simulation des signaux électriques (tensions, courant, température)
+.Implémentation logique de commande du disjoncteur et détection anomalies
+.Création et exécution de scénarios de test automatisés et détection anomalies
+.Visualisation des résultats : Matplotlib. 
+
 Projet 4 : Gestion de bibliothèque : livre de développement personnel
+.Etude du besoin
+.Architecture : Entrées/Sorties et UML
+.Développement
